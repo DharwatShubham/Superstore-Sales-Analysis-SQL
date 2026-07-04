@@ -2,9 +2,20 @@
 
 ## 📌 Project Overview
 
-This project analyzes a retail Superstore dataset using MySQL to extract meaningful business insights. The analysis focuses on sales performance, profitability, customer behavior, product performance, and regional trends.
+This project analyzes the Superstore retail dataset using MySQL to uncover meaningful business insights. The analysis focuses on sales performance, profitability, customer behavior, regional performance, product trends, and customer segmentation.
 
-The objective of this project is to demonstrate SQL skills used in real-world business analytics and data analyst roles.
+The project demonstrates SQL skills commonly used by Data Analysts to transform raw business data into actionable insights.
+
+---
+
+## 🎯 Project Objectives
+
+- Analyze overall business performance
+- Identify the most profitable regions and categories
+- Discover top customers and best-selling products
+- Evaluate sub-category profitability
+- Analyze customer segments
+- Practice real-world SQL analytical queries
 
 ---
 
@@ -24,8 +35,27 @@ The objective of this project is to demonstrate SQL skills used in real-world bu
 Superstore-Sales-Analysis-SQL/
 │
 ├── Dataset/
+│   └── Sample - Superstore.csv
+│
 ├── SQL/
+│   ├── 01_database_setup.sql
+│   ├── 02_business_kpis.sql
+│   ├── 03_region_analysis.sql
+│   ├── 04_category_analysis.sql
+│   ├── 05_customer_analysis.sql
+│   ├── 06_product_analysis.sql
+│   ├── 07_subcategory_analysis.sql
+│   └── 08_segment_analysis.sql
+│
 ├── Screenshots/
+│   ├── business_kpis.png
+│   ├── region_analysis.png
+│   ├── category_analysis.png
+│   ├── customer_analysis.png
+│   ├── product_analysis.png
+│   ├── subcategory_analysis.png
+│   └── segment_analysis.png
+│
 ├── README.md
 ├── LICENSE
 └── .gitignore
@@ -45,30 +75,31 @@ Superstore-Sales-Analysis-SQL/
 
 ## 📈 Analysis Performed
 
-- Overall Business KPIs
-- Regional Sales Analysis
-- Category-wise Performance
-- Top 10 Customers
-- Top 10 Products
-- Sub-Category Profitability
+- Business KPI Analysis
+- Region-wise Sales & Profit Analysis
+- Category-wise Sales & Profit Analysis
+- Top 10 Customers by Sales
+- Top 10 Products by Sales
+- Sub-Category Profitability Analysis
 - Customer Segment Analysis
 
 ---
 
 ## 💡 Key Business Insights
 
-- Technology generated the highest sales and profit.
-- West region achieved the highest revenue.
-- Consumer segment contributed the highest sales.
-- Copiers were the most profitable sub-category.
-- Tables generated significant losses despite high sales.
-- Some top-selling products produced negative profits, indicating pricing or discount issues.
+- 💻 Technology generated the highest overall sales.
+- 🌎 West region achieved the highest revenue and profit.
+- 👥 Consumer segment contributed the highest sales.
+- 🖨️ Copiers were the most profitable sub-category.
+- 📉 Tables generated significant losses despite strong sales.
+- ⚠️ Some high-revenue products were unprofitable due to discounts.
 
 ---
 
 ## 🧠 SQL Concepts Used
 
 - SELECT
+- WHERE
 - GROUP BY
 - ORDER BY
 - SUM()
@@ -76,59 +107,70 @@ Superstore-Sales-Analysis-SQL/
 - DISTINCT
 - ROUND()
 - LIMIT
+- Aggregate Functions
 
 ---
 
-## 📸 Query Results
+# 📸 Query Results
 
-### Business KPIs
+## Business KPIs
 
-![Business KPIs](Screenshots/01_business_kpis.png)
-
----
-
-### Region Analysis
-
-![Region Analysis](Screenshots/02_region_analysis.png)
+![Business KPIs](Screenshots/business_kpis.png)
 
 ---
 
-### Category Analysis
+## Region Analysis
 
-![Category Analysis](Screenshots/03_category_analysis.png)
-
----
-
-### Customer Analysis
-
-![Customer Analysis](Screenshots/04_customer_analysis.png)
+![Region Analysis](Screenshots/region_analysis.png)
 
 ---
 
-### Product Analysis
+## Category Analysis
 
-![Product Analysis](Screenshots/05_product_analysis.png)
-
----
-
-### Sub-Category Analysis
-
-![Sub-Category Analysis](Screenshots/06_subcategory_analysis.png)
+![Category Analysis](Screenshots/category_analysis.png)
 
 ---
 
-### Customer Segment Analysis
+## Customer Analysis
 
-![Segment Analysis](Screenshots/07_segment_analysis.png)
+![Customer Analysis](Screenshots/customer_analysis.png)
+
+---
+
+## Product Analysis
+
+![Product Analysis](Screenshots/product_analysis.png)
+
+---
+
+## Sub-Category Analysis
+
+![Sub-Category Analysis](Screenshots/subcategory_analysis.png)
+
+---
+
+## Customer Segment Analysis
+
+![Customer Segment Analysis](Screenshots/segment_analysis.png)
 
 ---
 
 ## 🚀 Future Improvements
 
-- Create interactive dashboards using Power BI.
-- Perform time-series sales trend analysis.
-- Build customer lifetime value analysis.
-- Add advanced SQL using Window Functions and CTEs.
+- Build an interactive Power BI dashboard.
+- Add monthly and yearly sales trend analysis.
+- Perform customer lifetime value (CLV) analysis.
+- Use Common Table Expressions (CTEs).
+- Implement Window Functions for advanced analytics.
+- Optimize queries using indexes.
+
+---
+
+## 📚 Dataset
+
+**Source:** Sample Superstore Dataset
+
+This dataset contains retail sales transactions including customer information, product details, sales, discounts, and profit.
 
 ---
 
@@ -136,4 +178,18 @@ Superstore-Sales-Analysis-SQL/
 
 **Shubham Dharwat**
 
-Aspiring Data Analyst | SQL | Power BI | Excel | Python
+Aspiring Data Analyst
+
+### Skills
+
+- SQL
+- MySQL
+- Power BI
+- Excel
+- Python
+- Data Visualization
+- Business Analytics
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
